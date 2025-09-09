@@ -15,6 +15,10 @@ function cloner(obj){
         console.log(cloneObj);
         return cloneObj;
     }
-    throw new Error('!!!')
+    if (obj === null || obj === undefined || Number.isNaN(obj)){
+        throw new Error('Error!')
+    }
 }
-cloner({id:1, name: 'huuudus', greeting(){}, foo(){}})
+cloner({id:1, name: 'huuudus', greeting(){}, foo(){}});
+
+cloner(NaN);
