@@ -1,0 +1,17 @@
+.wrap{
+    color: red;
+    background-color: pink;
+    font-size: 20px;
+}
+.collapse{
+    background-color: blueviolet;
+    color: white;
+    height: 100px;
+}
+.alpha{
+    color: green;
+}
+.beta{
+    color: red;
+    font-size: 20px;
+}
